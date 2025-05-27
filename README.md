@@ -1,28 +1,28 @@
-# # KNRA Seguros levantamento anual da base do INSS
-Este projeto visa realizar uma análise dos dados do INSS para identificar as regiões e categorias com maiores índices de ocorrências, de forma a ajustar a tabela anual de seguros da KNRA Seguros.
+#Projeto Analítico: Ajuste de Tabelas de Seguro com Dados de Acidentes de Trabalho (INSS)
+Este repositório contém o desenvolvimento de um sistema analítico que transforma dados públicos de acidentes de trabalho do INSS em insights estratégicos para precificação de seguros ocupacionais. O projeto foi conduzido como parte de um trabalho acadêmico do Projeto Aplicado II, tendo como empresa fictícia a KNRA Seguros, especializada em seguros contra acidentes de trabalho.
 
-# Objetivo
-Realizar uma análise dos dados disponibilizados pelo INSS para identificar as regiões e categorias com maiores índices de ocorrências. O intuito é ajustar a tabela anual de seguros da KNRA Seguros, oferecendo produtos mais adequados e preventivos para cada perfil de risco.
+#Objetivo
+Desenvolver um sistema de apoio à decisão para ajustar tabelas de seguro com base em padrões ocupacionais, regionais e temporais observados em quase 900.000 registros de acidentes (jun/2023 a dez/2024).
 
-# Estrutura do Projeto
+#Tecnologias e Métodos Utilizados
+Linguagem: Python
 
-# Conexão com a Base de Dados
-Acesso e extração dos dados do INSS, considerando as variáveis mais relevantes (região, categoria de ocorrência, entre outras).
+Modelos: Random Forest (classificação), Prophet (previsão temporal)
 
-# Transformação dos Dados
-Limpeza e padronização das informações, removendo valores ausentes ou inconsistentes e convertendo tipos de dados para facilitar a análise.
+Análises: Estatística descritiva, segmentação geográfica, clustering
 
-# Análise e Visualização
-Aplicação de técnicas estatísticas e algoritmos de aprendizado automático para identificar padrões.
-Criação de visualizações (gráficos, dashboards) que permitam compreender rapidamente as tendências e principais achados.
+Ferramentas: Pandas, Scikit-learn, Plotly, Dash
 
-# Recomendações e Ajustes na Tabela de Seguros
-Com base nos resultados, indicação de ajustes estratégicos na tabela de seguros da KNRA, levando em conta as áreas de maior risco e as categorias mais recorrentes.
+#Impacto Esperado
+O projeto demonstra como a ciência de dados pode ser aplicada para:
 
-# Recursos Utilizados
-- Linguagens e bibliotecas para análise de dados, como Python (pandas, NumPy, matplotlib, etc.).
-- Ferramentas de versionamento de código e documentação.
-- Métodos estatísticos e de aprendizado automático para identificação de padrões e tendências
+Otimizar preços de seguros de forma regionalizada e baseada em risco real.
+
+Aumentar a precisão na gestão de sinistros.
+
+Apoiar decisões estratégicas em seguradoras.
+
+
 
 
 # Discentes:
